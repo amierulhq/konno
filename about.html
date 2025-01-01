@@ -1,0 +1,190 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<style>
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'century gothic', sans-serif;
+  line-height: 1.6;
+  background: #f7f7f7;
+  color: #333;
+}
+
+.navbar {
+  background: #496639;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.cta-buttons .download-btn {
+  background: #496639;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.cta-buttons .download-btn:hover {
+  background: #FFB8BF;
+}
+    
+.text {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #;
+}
+
+.text h1 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: #496639;
+}
+
+.text h1 span {
+  color: #FFB8BF;
+}
+
+footer {
+  background: #496639;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+    
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+.owner-image {
+    flex: 1;
+    max-width: 350px;
+    min-width: 250px;
+}
+
+.owner-image img {
+    width: 100%;
+    height: 400;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.owner-words {
+    flex: 2;
+    max-width: 500px;
+    color: #496639;
+}
+
+.owner-words h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #496639;
+}
+
+.owner-words p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #444;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .owner-words {
+        max-width: 100%;
+        margin-top: 1rem;
+    }
+
+</style>
+  <header class="navbar">
+    <div class="container">
+      <div class="logo">
+        <img src="konnologo2.png" alt="KONNO Logo">
+      </div>
+      <ul class="nav-links">
+        <li><a href="konnoindex.html">Home</a></li>
+        <li><a href="konnoabout.html">About</a></li>
+        <li><a href="konnoproduct.html">Products</a></li>
+        <li><a href="konnocontact.html">Contact</a></li>
+      </ul>
+      <div class="cta-buttons">
+        <a href="konnospecial.html" class="download-btn">Weekend Special</a>
+      </div>
+    </div>
+  </header>
+<body>
+  <section class="text">
+    <h1><span>Owner.</span> Visionary Behind It All.</h1>
+    <div class="about-container">
+        <div class="owner-image">
+            <img src="ownerkonnoimg.jpg">
+        </div>
+        <div class="owner-words">
+            <h2>Fealianty Alisya Law</h2>
+            <p>
+"Konno is a vibrant and emerging small business that I, Fealianty Alisya Law, proudly founded in 2024 in Kuching, Malaysia. As a full-time student with a deep passion for desserts, I decided to turn my love for indulgent treats into something special. Konno offers a diverse selection of delectable desserts and refreshing sweet drinks that are designed to satisfy the cravings of anyone with a sweet tooth. Every item on our menu is crafted with care, using high-quality ingredients and unique flavor combinations to appeal to both local and international palates.
+
+What started as a small idea quickly grew into a beloved destination for dessert lovers in Kuching. We are dedicated to delivering not only the best desserts but also a delightful and memorable experience for every customer who walks through our doors. Through our hard work and commitment to excellence, Konno has become a place where people can enjoy both the sweetness of our creations and the warmth of the atmosphere. I am truly grateful to see the support we’ve received and excited to continue growing Konno into a cherished part of this vibrant community."
+            </p>
+        </div>
+    </div>
+    </section>
+  <footer>
+    <div class="container footer-content">
+      <p>© 2025 KONNO | All Rights Reserved</p>
+    </div>
+  </footer>
+</body>
+</html>
