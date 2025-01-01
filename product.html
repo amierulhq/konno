@@ -1,0 +1,249 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'century gothic', sans-serif;
+  line-height: 1.6;
+  background: #f7f7f7;
+  color: #333;
+}
+
+.navbar {
+  background: #496639;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.cta-buttons .download-btn {
+  background: #496639;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.cta-buttons .download-btn:hover {
+  background: #FFB8BF;
+}
+    
+.text {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #;
+}
+
+.text h1 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: #496639;
+}
+
+.text h1 span {
+  color: #FFB8BF;
+}
+
+footer {
+  background: #496639;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+    
+.menu-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100vw;
+  height: 400px;
+  overflow: hidden;
+    }
+
+.menu-container {
+  display: flex;
+  gap: 40px;
+  animation: autoScroll 40s linear infinite;
+    }
+
+.menu-item {
+  flex: 0 0 auto;
+  text-align: center;
+  width: 240px;
+  position: relative;
+  transform: scale(0.9);
+  transition: transform 0.3s ease-in-out;
+    }
+
+.menu-item:hover {
+  transform: scale(1);
+    }
+
+.menu-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+    }
+
+.menu-item h3 {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+    }
+
+.menu-item p {
+  font-size: 14px;
+  color: #777;
+    }
+
+    @keyframes autoScroll {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-30%);
+      }
+    }
+    </style>
+</head>
+<body>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <div class="logo">
+        <img src="konnologo2.png" alt="KONNO Logo">
+      </div>
+      <ul class="nav-links">
+        <li><a href="konnoindex.html">Home</a></li>
+        <li><a href="konnoabout.html">About</a></li>
+        <li><a href="konnoproduct.html">Products</a></li>
+        <li><a href="konnocontact.html">Contact</a></li>
+      </ul>
+      <div class="cta-buttons">
+        <a href="konnospecial.html" class="download-btn">Weekend Special</a>
+      </div>
+    </div>
+  </header>
+  <section class="text">
+    <h1><span>Konno.</span> Our Menu.</h1>
+<body>
+  <div class="menu-wrapper">
+    <div class="menu-container">
+      <div class="menu-item">
+        <img src="stickymatcha.png" alt="Drink 1">
+        <h3>Sticky Matcha</h3>
+        <p>RM 6</p>
+      </div>
+      <div class="menu-item">
+        <img src="brookies.png">
+        <h3>Brookies</h3>
+        <p>RM 3</p>
+      </div>
+      <div class="menu-item">
+        <img src="strawberrymatcha.png">
+        <h3>Sticky Strawberry Matcha</h3>
+        <p>RM 7</p>
+      </div>
+      <div class="menu-item">
+        <img src="kekbatek.JPG">
+        <h3>Kek Batek</h3>
+        <p>RM 6</p>
+      </div>
+      <div class="menu-item">
+        <img src="stickychocha.png">
+        <h3>Sticky Chocha</h3>
+        <p>RM 7</p>
+      </div>
+      <div class="menu-item">
+        <img src="brookies.png">
+        <h3>Brookies</h3>
+        <p>RM 3</p>
+      </div>
+      <div class="menu-item">
+        <img src="strawberry.png">
+        <h3>Classic Strawberry</h3>
+        <p>RM 6</p>
+      </div>
+      <div class="menu-item">
+        <img src="kekbatek.JPG">
+        <h3>Kek Batek</h3>
+        <p>RM 6</p>
+      </div>
+      <div class="menu-item">
+        <img src="stickymatcha.png" alt="Drink 1">
+        <h3>Sticky Matcha</h3>
+        <p>RM 6</p>
+      </div>
+      <div class="menu-item">
+        <img src="brookies.png">
+        <h3>Brookies</h3>
+        <p>RM 3</p>
+      </div>
+      <div class="menu-item">
+        <img src="strawberrymatcha.png">
+        <h3>Sticky Strawberry Matcha</h3>
+        <p>RM 7</p>
+      </div>
+      <div class="menu-item">
+        <img src="kekbatek.JPG">
+        <h3>Kek Batek</h3>
+        <p>RM 6</p>
+      </div>
+      <div class="menu-item">
+        <img src="stickychocha.png">
+        <h3>Sticky Chocha</h3>
+        <p>RM 7</p>
+      </div>
+    </div>
+  </div>
+</body>
+</section>
+</body>
+  <footer>
+    <div class="container footer-content">
+      <p>© 2025 KONNO | All Rights Reserved</p>
+    </div>
+  </footer>
+</body>
+</html>
