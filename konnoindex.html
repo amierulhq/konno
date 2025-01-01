@@ -1,0 +1,291 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<style>
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'century gothic', sans-serif;
+  line-height: 1.6;
+  background: "#f7f7f7";
+  color: #333;
+}
+
+.navbar {
+  background: #496639;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.cta-buttons .download-btn {
+  background: #496639;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.cta-buttons .download-btn:hover {
+  background: #FFB8BF;
+}
+
+.hero {
+  background-image: url('backgroundindexkonno1.png');
+  background-color: silver;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 0 20px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background: #496639;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.cta-button:hover {
+  background: #FFB8BF;
+}
+
+.features {
+  padding: 50px 20px;
+  background: #fff;
+}
+
+.features .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.feature-item {
+  text-align: center;
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  flex: 1;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.feature-item img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.feature-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.feature-item p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+footer {
+  background: #496639;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+    
+.video-section {
+  padding: 50px 20px;
+  background-color: #f7f7f7;
+}
+
+.video-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.video-wrapper {
+  flex: 1;
+  max-width: 50%;
+}
+
+.video-wrapper video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.caption {
+  flex: 1;
+  max-width: 50%;
+}
+
+.caption h2 {
+  font-size: 2rem;
+  color: #496639;
+  margin-bottom: 15px;
+}
+
+.caption p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.caption .cta-button {
+  display: inline-block;
+  background: #496639;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.caption .cta-button:hover {
+  background: #FFB8BF;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .video-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .video-wrapper,
+  .caption {
+    max-width: 100%;
+  }
+
+  .caption h2 {
+    font-size: 1.5rem;
+  }
+}
+</style>
+<body>
+
+  <header class="navbar">
+    <div class="container">
+      <div class="logo">
+        <img src="konnologo2.png" alt="KONNO Logo">
+      </div>
+      <ul class="nav-links">
+        <li><a href="konnoindex.html">Home</a></li>
+        <li><a href="konnoabout.html">About</a></li>
+        <li><a href="konnoproduct.html">Products</a></li>
+        <li><a href="konnocontact.html">Contact</a></li>
+      </ul>
+      <div class="cta-buttons">
+        <a href="konnospecial.html" class="download-btn">Weekend Special</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>New homebased dessert in town!</h1>
+      <p>A Weekend Must-Have!</p>
+      <a href="konnoproduct.html" class="cta-button">Explore Menu</a>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="container">
+      <div class="feature-item">
+        <img src="quality1.png">
+        <h3>Quality</h3>
+        <p>Made with the finest, freshest ingredients.</p>
+      </div>
+      <div class="feature-item">
+        <img src="packaging.png">
+        <h3>Affordable Prices</h3>
+        <p>Delicious treats at wallet-friendly prices.</p>
+      </div>
+      <div class="feature-item">
+        <img src="brookies2.JPG">
+        <h3>Customs Flavors</h3>
+        <p>Unique desserts tailored to your taste.</p>
+      </div>
+    </div>
+  </section>
+<section class="video-section">
+  <div class="container video-content">
+    <div class="video-wrapper">
+      <video autoplay loop playsinline class="video-player" muted controls>
+        <source src="konnoreview.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div class="caption">
+      <h2>Deliciously Reviewed</h2>
+      <p>
+      Watch as Aizat Aiman shares their sweet experience at Konno homebased dessert stop. A taste that’s too good to keep a secret! @aztaiman
+      </p>
+      <a href="konnoabout.html" class="cta-button">More About Konno</a>
+    </div>
+  </div>
+</section>
+  <footer>
+    <div class="container footer-content">
+      <p>© 2025 KONNO | All Rights Reserved</p>
+    </div>
+  </footer>
+</body>
+</html>
