@@ -1,0 +1,212 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WeekendSpecial</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<style>
+
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'century gothic', sans-serif;
+  line-height: 1.6;
+  background: #f7f7f7;
+  color: #333;
+}
+
+.navbar {
+  background: #496639;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.cta-buttons .download-btn {
+  background: #496639;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.cta-buttons .download-btn:hover {
+  background: #FFB8BF;
+}
+    
+  .text {
+    text-align: center;
+    padding: 50px 20px;
+  }
+
+  .text h1 {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: #496639;
+  }
+
+  .text h1 span {
+    color: #FFB8BF;
+  }
+      
+footer {
+  background: #496639;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.special-header {
+  background: linear-gradient(135deg, #ff6f61, #ffa177);
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.special-header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.special-header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.special-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.special-menu-card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  text-align: center;
+  padding: 20px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.special-menu-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.menu-img {
+  width: 70%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.special-menu-card h2 {
+  font-size: 1.8rem;
+  color: #496639;
+  margin-bottom: 10px;
+}
+
+.special-menu-card p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.price {
+  font-size: 1.5rem;
+  color: #ff6f61;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #FFB8BF;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #496639;
+}
+
+  </style>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <div class="logo">
+        <img src="konnologo2.png">
+      </div>
+      <ul class="nav-links">
+        <li><a href="konnoindex.html">Home</a></li>
+        <li><a href="konnoabout.html">About</a></li>
+        <li><a href="konnoproduct.html">Products</a></li>
+        <li><a href="konnocontact.html">Contact</a></li>
+      </ul>
+      <div class="cta-buttons">
+        <a href="konnospecial.html" class="download-btn">Weekend Special</a>
+      </div>
+    </div>
+    </header>
+  <section class="text">
+    <h1><span>Weekend Special.</span> Exclusive.</h1>
+  <main class="special-content">
+    <div class="special-menu-card">
+      <img src="strawberrymatcha.png" alt="Special Dessert" class="menu-img">
+      <h2>Sticky Strawberry Matcha</h2>
+      <p>
+        Decadent, rich, and made with premium ingredients. Enjoy this special treat exclusively this weekend!
+      </p>
+      <p class="price">Only RM 6</p>
+      <a href="konnocontact.html" class="cta-button">Order Now</a>
+    </div>
+  </main>
+</section>
+  <footer>
+    <div class="container footer-content">
+      <p>© 2025 KONNO | All Rights Reserved</p>
+    </div>
+  </footer>
+</body>
+</html>
