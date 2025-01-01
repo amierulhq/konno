@@ -1,0 +1,237 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'century gothic', sans-serif;
+    line-height: 1.6;
+    background: #f7f7f7;
+    color: #333;
+  }
+
+  .navbar {
+    background: #496639;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo img {
+    height: 50px;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+  }
+
+  .cta-buttons .download-btn {
+    background: #496639;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .cta-buttons .download-btn:hover {
+    background: #FFB8BF;
+  }
+
+  .text {
+    text-align: center;
+    padding: 50px 20px;
+  }
+
+  .text h1 {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: #496639;
+  }
+
+  .text h1 span {
+    color: #FFB8BF;
+  }
+      
+footer {
+  background: #496639;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+  .contact-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .contact-container {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+  }
+
+  .contact-container h2 {
+    font-size: 2rem;
+    color: #496639;
+    margin-bottom: 1px;
+  }
+
+  .contact-container p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 30px;
+  }
+
+  .contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  .contact-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .contact-icon:hover {
+    transform: scale(1.1);
+  }
+
+  .contact-icon img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .contact-icon:hover img {
+    transform: rotate(360deg);
+  }
+
+  .contact-icon span {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .transparent-img {
+    width: 550px;
+    height: 400;
+    margin-left: 1px;
+    margin-right: 20px;
+    margin-top: 60px;
+  }
+
+  @media (max-width: 768px) {
+    .contact-icons {
+      gap: 15px;
+    }
+
+    .contact-icon img {
+      width: 40px;
+      height: 40px;
+    }
+
+    .contact-icon span {
+      font-size: 0.9rem;
+    }
+      
+footer {
+  background: #496639;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+  }
+  </style>
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <div class="logo">
+        <img src="konnologo2.png" alt="KONNO Logo">
+      </div>
+      <ul class="nav-links">
+        <li><a href="konnoindex.html">Home</a></li>
+        <li><a href="konnoabout.html">About</a></li>
+        <li><a href="konnoproduct.html">Products</a></li>
+        <li><a href="konnocontact.html">Contact</a></li>
+      </ul>
+      <div class="cta-buttons">
+        <a href="konnospecial.html" class="download-btn">Weekend Special</a>
+      </div>
+    </div>
+  </header>
+  <section class="text">
+    <h1><span>Your Sweet Escape Starts Here.</span> Pre-Order Now.</h1>
+    <div class="contact-wrapper">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <p>Serving Connections as Sweet as Our Treats!</p>
+            
+            <div class="contact-icons">
+                <a href="https://www.instagram.com/konno.kch" target="_blank" class="contact-icon">
+                    <img src="instagram.png" alt="Instagram">
+                    <span>Instagram</span>
+                </a>
+                <a href="https://www.tiktok.com/@konn__o" target="_blank" class="contact-icon">
+                    <img src="tiktok.png" alt="TikTok">
+                    <span>TikTok</span>
+                </a>
+                <a href="https://wa.me/0137039048" target="_blank" class="contact-icon">
+                    <img src="whatsapp.jpg" alt="WhatsApp">
+                    <span>WhatsApp</span>
+                </a>
+            </div>
+        </div>
+        <img src="igtiktok.png" class="transparent-img">
+    </div>
+  </section>
+      <footer>
+    <div class="container footer-content">
+      <p>© 2025 KONNO | All Rights Reserved</p>
+    </div>
+  </footer>
+</body>
+</html>
